@@ -8,7 +8,16 @@ exports.list_Country = function (req, res) {
            return response.json();
     })
     .then((myJson) => {
-        res.json({ 'country': myJson[req.params.code] })
+      // returns {"code":"countryname"}
+      let obj={};
+      obj[req.params.code]=myJson[req.params.code];
+      res.json(obj)
+
+      // returns alternative {country:"countryname"}
+      // res.json({ 'country': myJson[req.params.code] })
+        
     }
+    // add a catch
+    // add return status
   );
 };

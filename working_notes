@@ -1,8 +1,24 @@
-// resources
+// ** resources **
+
+// initial tutorial
 // https://www.codementor.io/@olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
-// also had to install body parser
+// also had to install body parser - that wasn't in instructions
 
 //  needed to install this to use fetch
-npm install --save isomorphic-fetch es6-promise
+//  npm install --save isomorphic-fetch es6-promise
+
+// https://developers.google.com/web/updates/2015/03/introduction-to-fetch
 
 
+// ** test cases **
+AF
+CI
+GB
+ST
+ZW
+ZM
+
+
+// further developments
+// automatic testing
+// local version of file

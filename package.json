@@ -4,18 +4,20 @@
   "description": "REST API to return country description given ISO code",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./test/api.test.js"
   },
   "author": "Helen Gardner",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "es6-promise": "^4.2.8",
     "express": "^4.17.1",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^25.1.0"
   },
   "start": "nodemon server.js"
 }
